@@ -4,9 +4,9 @@
     "description": "Стартовый проект для сборки и разработки веб-макетов и UI Kit к ним.",
     "scripts": {
         "dev": "parcel src/index.html --open",
-        "kit": "parcel src/ui.html --open",
+        "kit": "parcel src/uikit.html --open",
         "build:uikit": "rm -rf build/uikit && parcel build src/uikit.html --out-dir build/uikit",
-        "build": "rm -rf build/uikit && parcel build src/ui.html --out-dir build/www"
+        "build": "rm -rf build/uikit && parcel build src/uikit.html --out-dir build/www"
     },
     "author": "Mikhail Nepomnyashchiy",
     "license": "ISC",
