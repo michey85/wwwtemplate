@@ -6,7 +6,7 @@
         "dev": "parcel src/index.html --open",
         "kit": "parcel src/uikit.html --open",
         "build:uikit": "rm -rf build/uikit && parcel build src/uikit.html --out-dir build/uikit",
-        "build": "rm -rf build/uikit && parcel build src/uikit.html --out-dir build/www"
+        "build": "rm -rf build/uikit && parcel build src/index.html --out-dir build/www"
     },
     "author": "Mikhail Nepomnyashchiy",
     "license": "ISC",
