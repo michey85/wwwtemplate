@@ -11,16 +11,19 @@
     "author": "Mikhail Nepomnyashchiy",
     "license": "ISC",
     "dependencies": {
-        "autoprefixer": "^10.4.2",
-        "parcel": "^2.2.1",
-        "postcss-modules": "^4.3.0",
-        "sass": "^1.26.5"
+        "autoprefixer": "^10.4.16",
+        "parcel": "^2.10.3",
+        "postcss-modules": "^4.3.1",
+        "sass": "^1.69.5"
     },
     "browserslist": [
         "last 5 version",
         "ie 10"
     ],
     "devDependencies": {
-        "@parcel/transformer-sass": "^2.2.1"
+        "@parcel/transformer-sass": "^2.10.3"
+    },
+    "volta": {
+        "node": "20.10.0"
     }
 }
