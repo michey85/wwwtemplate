@@ -14,7 +14,7 @@
         "autoprefixer": "^10.4.27",
         "parcel": "^2.16.4",
         "postcss-modules": "^6.0.1",
-        "sass": "^1.97.3"
+        "sass": "^1.98.0"
     },
     "browserslist": [
         "last 5 version",
